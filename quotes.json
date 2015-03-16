@@ -1,0 +1,18 @@
+[
+        {
+            "Name": "Person 1",
+            "Quote": "This is person 1's quote or text"
+        }
+        {
+            "Name": "Person 2",
+            "Quote": "This is person 2's quote or text"
+        },    
+        {
+            "Name": "Person 3",
+            "Quote": "This is person 3's quote or text"
+        },
+        {
+            "Name": "Person 4",
+            "Quote": "This is person 4's quote or text"
+        }
+]
