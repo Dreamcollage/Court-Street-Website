@@ -159,14 +159,14 @@ $(function () {
             $window.on('load', function () {
 
                 $banner.scrollwatch({
-                    delay: 400,
+                    delay: 100,
                     range: 1,
                     anchor: 'top',
                     on: function () {
-                        //$header.addClass('unveal')
-                        $header.addClass('alt reveal');
+                        $header.addClass('alt')
                     },
                     off: function () {
+                        $header.addClass('reveal');
                         $header.removeClass('alt');
                         //$header.removeClass('unveal');
                     }

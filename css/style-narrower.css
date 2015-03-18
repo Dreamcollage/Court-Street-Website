@@ -25,8 +25,7 @@
 
 /* Iframe */
 iframe {
-	height: 0;
-	width: 0;
+    display: none;
 }
 
 /* Section/Article */
@@ -109,12 +108,6 @@ iframe {
 
 	body.index #main {
 		padding-top: 4.5em;
-	}
-
-/* CTA */
-
-	#cta {
-		margin: 0;
 	}
 
 /* Footer */

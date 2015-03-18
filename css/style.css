@@ -713,14 +713,6 @@ input[type="reset"].small,
     animation: reveal-header .5s;
 }
 
-#header.unveal {
-    -moz-animation: reveal-header .5s reverse;
-    -webkit-animation: reveal-header .5s reverse;
-    -o-animation: reveal-header .5s reverse;
-    -ms-animation: reveal-header .5s reverse;
-    animation: reveal-header .5s reverse;
-}
-
 #header.alt {
     /*
     -moz-animation:reveal-header .5 reverse;
@@ -753,6 +745,7 @@ input[type="reset"].small,
 }
 /* Dropotron */
 
+/*
 .dropotron {
     background: #fff;
     box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.075);
@@ -799,6 +792,7 @@ input[type="reset"].small,
     background: #83d3c9;
     color: #fff
 }
+*/
 
 .dropotron > li:first-child {
     border-top: 0
@@ -996,7 +990,7 @@ body.index #main {
     color: #fff;
     font-family: Shadows Into Light;
     font-style: italic;
-    padding: 3%;
+    padding: 2em;
     text-align: center
 }
 /* Footer */
