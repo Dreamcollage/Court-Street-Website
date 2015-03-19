@@ -28,16 +28,15 @@ footer.major {
     padding-top: 1.5em;
 }
 
-/* iframe */
-
 .special span {
     color: RED;
     border: 2px;
 }
+/* iframe */
+
 iframe {
     padding: 0;
 }
-
 /*Seperator*/
 
 #sep {

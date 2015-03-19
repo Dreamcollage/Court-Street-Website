@@ -6,6 +6,12 @@
 
 // Disable scroll zooming and bind back the click event
 $(function () {
+    //Map Iframe click
+
+
+    $('.maps').click(function () {
+        $('.maps iframe').addClass("active");
+    });
     //Quotes
     $.getJSON('../quotes.json', function (data) {
         $.each(data, function (index, d) {
