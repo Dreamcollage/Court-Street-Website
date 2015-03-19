@@ -15,10 +15,6 @@ textarea {
 }
 /* Section/Article */
 
-header br {
-    display: none;
-}
-
 header.major {
     padding-bottom: 1em;
 }
@@ -34,6 +30,10 @@ footer.major {
 
 /* iframe */
 
+.special span {
+    color: RED;
+    border: 2px;
+}
 iframe {
     padding: 0;
 }
@@ -48,10 +48,6 @@ iframe {
 .wrapper {
     margin-bottom: 3em;
     padding: 3em 2.5em;
-}
-
-.wrapper.special br {
-    display: none;
 }
 
 .wrapper.style1 {

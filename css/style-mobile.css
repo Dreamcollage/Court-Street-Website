@@ -4,7 +4,12 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 /* Basic */
-
+.no-mobile{
+    display: none;
+}
+.mobile{
+    display: block;
+}
 body {
     min-width: 320px;
 }
@@ -44,7 +49,7 @@ header.special {
 
 header.special:before,
 header.special:after {
-    width: 38%;
+    width: 26%;
 }
 
 header.special .icon {
@@ -61,8 +66,13 @@ footer.major {
 }
 /* Menu */
 
+
 #menu .image {
     background-size: 15%;
+}
+
+#menu .mobile{
+    font-weight: bold;
 }
 /* Icon */
 
@@ -98,14 +108,13 @@ ul.buttons {
 }
 
 .wrapper.style2 {
-    background-size: 10em;
-    padding: 2.25em 1.5em;
+    display: none;
 }
 
-.wrapper.style4 {
-    background-size: 10em;
-    padding: 1.5em 1.5em 3em 1.5em;
+.wrapper.style3 {
+    padding-top: 1em;
 }
+
 /*Seperator*/
 #sep{
     display: none;

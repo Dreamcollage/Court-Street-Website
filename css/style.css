@@ -6,7 +6,9 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 /* Basic */
-
+.mobile{
+    display: none;
+}
 body,
 #skel-layers-wrapper {
     background: #f3f6fa
@@ -744,7 +746,6 @@ input[type="reset"].small,
     border: solid 1px
 }
 /* Dropotron */
-
 /*
 .dropotron {
     background: #fff;
@@ -868,7 +869,7 @@ input[type="reset"].small,
     -o-animation-fill-mode: forwards;
     -ms-animation-fill-mode: forwards;
     animation-fill-mode: forwards;
-    background: rgba(70, 60, 60, 0.5);
+    background: rgba(80, 70, 70, 0.6);
     /* Around The Banner */
     
     color: #fff;
@@ -947,24 +948,41 @@ body.index #main {
     background-repeat: no-repeat;
     background-size: 30%;
     background-position: top;
-    opacity: 50%
+    opacity: 40%
 }
+
+/*
+#menu section{
+    visibility: hidden;
+}
+#menu section header{
+    visibility: visible;
+}
+#menu section:hover{
+    visibility: visible;
+}
+*/
 
 #menu .image.coffee {
     background-image: url(images/coffee.svg);
+    padding: 1em;
 }
 
 #menu .image.sandwich {
     background-image: url(images/sandwich.svg);
+    padding: 1em;
 }
 
 #menu .image.bed {
     background-image: url(images/bed.svg);
+    padding: 1em;
 }
 
 #menu .image.star {
     background-image: url(images/star.svg);
+    padding: 1em;
 }
+
 
 #menu header h3 {
     padding-top: 6em;
