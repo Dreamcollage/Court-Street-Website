@@ -349,11 +349,8 @@ ul.featured-icons li .icon {
 }
 
 ul.buttons {
-    cursor: default
-}
-
-ul.buttons:last-child {
-    margin-bottom: 0
+    cursor: default;
+    padding: 1em;
 }
 
 ul.buttons li {
@@ -373,10 +370,11 @@ ul.buttons.vertical li {
 ul.buttons.vertical li:first-child {
     padding: 0
 }
-
-ul li {
-    padding-bottom: 0.5em;
+/*
+ul.buttons.horizontal li:first-child {
+    padding: 0
 }
+*/
 /* Table */
 
 table {
@@ -532,16 +530,15 @@ input[type="reset"],
     -ms-transition: color .2s ease-in-out, border-color .2s ease-in-out, background-color .2s ease-in-out;
     transition: color .2s ease-in-out, border-color .2s ease-in-out, background-color .2s ease-in-out;
     background: none;
-    margin-top: 2em;
     border: solid 1px;
+    padding: 1em;
     color: inherit;
     cursor: pointer;
     display: inline-block;
     font-size: .8em;
     font-weight: 900;
     letter-spacing: 2px;
-    min-width: 18em;
-    line-height: 3.75em;
+    min-width: 12em;
     text-align: center;
     text-decoration: none;
     text-transform: uppercase;
@@ -607,6 +604,10 @@ input[type="reset"].small,
     background-color: #9F5A0F;
     color: #fff;
     text-align: left;
+}
+
+.wrapper.style3 ul li {
+    padding-bottom: 0.5em;
 }
 /* Header */
 
