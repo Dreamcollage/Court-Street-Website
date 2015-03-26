@@ -5,6 +5,10 @@
 */
 /* Basic */
 
+.no-tablet {
+    display: none;
+}
+
 h2 {
     font-size: 1.2em;
 }
@@ -25,11 +29,6 @@ header.special:after {
 
 header.special h2 + p {
     padding-top: 1.25em;
-}
-/* Iframe */
-
-iframe {
-    display: none;
 }
 /* Section/Article */
 

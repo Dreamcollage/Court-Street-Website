@@ -32,6 +32,11 @@ a:hover {
     border-bottom-color: transparent
 }
 
+img {
+    width: 16em;
+    height: 14em
+}
+
 strong,
 b {
     font-weight: 400

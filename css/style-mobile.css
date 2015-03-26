@@ -4,12 +4,15 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 /* Basic */
-.no-mobile{
+
+.no-mobile {
     display: none;
 }
-.mobile{
+
+.mobile {
     display: block;
 }
+
 body {
     min-width: 320px;
 }
@@ -27,12 +30,6 @@ h3 {
 p {
     text-align: justify;
 }
-
-/* iframe */
-
-iframe {
-    display: none;
-}
 /* Section/Article */
 
 header {
@@ -43,8 +40,12 @@ header.major {
     padding-bottom: 0;
 }
 
+header.special:first-child {
+    margin: 1em 0 3em 0;
+}
+
 header.special {
-    margin-bottom: 1em;
+    margin: 0 0 0 1em;
 }
 
 header.special:before,
@@ -66,12 +67,11 @@ footer.major {
 }
 /* Menu */
 
-
 #menu .image {
     background-size: 15%;
 }
 
-#menu .mobile{
+#menu .mobile {
     font-weight: bold;
 }
 /* Icon */
@@ -114,11 +114,6 @@ ul.buttons {
 .wrapper.style3 {
     padding-top: 1em;
 }
-
-/*Seperator*/
-#sep{
-    display: none;
-}
 /* Banner */
 
 #banner {
@@ -150,7 +145,7 @@ ul.buttons {
 }
 
 body.index #main {
-    padding: 2.5em 0 0 0;
+    padding-top: 0em;
 }
 
 body.contact #main {
