@@ -209,6 +209,30 @@ footer.major {
     text-transform: none!important
 }
 
+
+li.icon.fa-arrow-left {
+    -moz-transition: all .2s ease-in-out;
+    -webkit-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    -ms-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;        
+    font-size: 1.5em;
+    vertical-align: middle;
+    position: relative;
+    text-align: right;
+}
+li.icon.fa-arrow-left:hover {
+    font-size: 1.9em;
+    left: -2;
+}
+
+.icon.fa-arrow-right {
+    font-size: 1.5em
+}
+
+.icon.fa-arrow-right:hover {
+}
+
 .icon.circle {
     -moz-transition: all .2s ease-in-out;
     -webkit-transition: all .2s ease-in-out;
@@ -226,6 +250,19 @@ footer.major {
     text-decoration: none;
     top: 0;
     width: 2.25em
+}
+
+.head-icon {
+    -moz-transition: all .2s ease-in-out;
+    -webkit-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    -ms-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+    background: #70aecd;
+    display: inline-block;
+    font-size: 1.25em;
+    height: 1em;
+    width: 1em;
 }
 
 .icon.circle:hover {
