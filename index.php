@@ -48,7 +48,7 @@
                 <li> <a class="current scrolly" href="#contact">Contact</a>
 
                 </li>
-                <li> <a href="/extra.html">Extra</a>
+                <li> <a href="/extra">Extra</a>
 
                 </li>
             </ul>

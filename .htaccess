@@ -1,0 +1,13 @@
+Order Deny,Allow
+Deny from all
+Allow from 127.0.0.1
+Allow from ::1
+
+AddHandler cgi-script .pl .cgi
+Options +ExecCGI +FollowSymLinks
+
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)/$ /$1 [L,R=301]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^\.]+)$ $1.php [NC,L]

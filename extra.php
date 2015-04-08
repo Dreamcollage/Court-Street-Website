@@ -43,7 +43,7 @@
 
                 </li>
                 <li>
-                    <a class="current scrolly" style="cursor: pointer" onclick="window.history.back();">Back</a>
+                    <a class="current scrolly" href="/">Back</a>
 
                 </li>
             </ul>
